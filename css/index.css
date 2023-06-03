@@ -1,0 +1,29 @@
+.container {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > div {
+  flex: 1 1 0;
+  width: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.andrew-img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.container-text {
+  text-align: center;
+}
+
+.container-text > span {
+  font-size: 18px;
+}

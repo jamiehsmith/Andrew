@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  bottom: 0;
+  overflow: auto;
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    height: 100vh;
+  }
+}
+
+body {
+  background: white;
+  display: block;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-title {
+  font-size: 30px;
+}
+
+.nav-title > a {
+  text-decoration: none;
+}
+
+.nav-links > a:not(:last-child) {
+  padding: 3px;
+}
+
+a {
+  color: inherit;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.sub-title {
+  font-size: 18px;
+}
+
+span {
+  font-size: 14px;
+}
