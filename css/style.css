@@ -29,14 +29,23 @@ body {
 
 .nav-title {
   font-size: 30px;
+  font-family: Geologica;
 }
 
 .nav-title > a {
   text-decoration: none;
 }
 
+.nav-links > a {
+  font-weight: 600;
+}
+
 .nav-links > a:not(:last-child) {
   padding: 3px;
+}
+
+.nav-links > a:last-child {
+  padding-left: 3px;
 }
 
 a {

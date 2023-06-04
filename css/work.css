@@ -13,3 +13,14 @@
 .link-list {
   line-height: 12px;
 }
+
+.vans-show {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.vans-show > img {
+  width: 100%;
+  height: 100%;
+}
