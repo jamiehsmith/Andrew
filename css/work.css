@@ -6,12 +6,18 @@
   text-align: center;
 }
 
-.text-container {
+.container__wrapper {
   width: 50%;
 }
 
-.link-list {
-  line-height: 12px;
+.text-container {
+  padding-top: 20px;
+}
+
+br {
+  display: block;
+  content: '';
+  margin-top: 8px;
 }
 
 .vans-show {
