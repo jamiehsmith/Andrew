@@ -9,3 +9,7 @@
 .text-container {
   width: 50%;
 }
+
+.link-list {
+  line-height: 12px;
+}
